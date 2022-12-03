@@ -9,17 +9,20 @@
   
 
 
-# 작성 기록
+### 작성 기록
 
-[기록](https://github.com/somnwal/TIL/tree/main/기록)
+- [기록](https://github.com/somnwal/TIL/tree/main/기록)
 
 &nbsp;
 &nbsp;
 &nbsp;
 
-# 카테고리
+### 카테고리
+
+- Spring
+  - [SpringBoot](https://github.com/somnwal/TIL/tree/main/SpringBoot)
+
 
 - InfraStructure
-[오라클 클라우드](https://github.com/somnwal/TIL/tree/main/오라클_클라우드)
-[우분투](https://github.com/somnwal/TIL/tree/main/오라클_클라우드)
-
+  - [오라클 클라우드](https://github.com/somnwal/TIL/tree/main/오라클_클라우드)
+  - [우분투](https://github.com/somnwal/TIL/tree/main/오라클_클라우드)
