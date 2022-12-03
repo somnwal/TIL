@@ -1,4 +1,4 @@
-# 20221204_우분투_JAVA_설치
+# 20221204_우분투_JAVA+Tomcat_설치
 
 &nbsp;
 &nbsp;
@@ -86,7 +86,7 @@ adduser costudy
 
 ##### 유저 전환
 ```bash
-su -i costudy
+su -l costudy
 ```
 
 &nbsp;
