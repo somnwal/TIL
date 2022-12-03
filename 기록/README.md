@@ -1,3 +1,4 @@
 # 기록
 
-2022-12-03 오라클 클라우드 연결관련 공부
+[20221203_오라클_클라우드_연결](https://github.com/somnwal/TIL/tree/main/오라클_클라우드/20221203_오라클_클라우드_연결)
+[20221204_우분투_MySQL_설치](https://github.com/somnwal/TIL/tree/main/우분투/20221204_우분투_MySQL_설치)
