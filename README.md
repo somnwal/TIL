@@ -18,6 +18,8 @@
 &nbsp;
 
 # 카테고리
-[오라클 클라우드](https://github.com/somnwal/TIL/tree/main/오라클_클라우드)
 
+- InfraStructure
+[오라클 클라우드](https://github.com/somnwal/TIL/tree/main/오라클_클라우드)
+[우분투](https://github.com/somnwal/TIL/tree/main/오라클_클라우드)
 
