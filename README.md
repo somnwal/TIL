@@ -11,7 +11,7 @@
 
 ### 작성 기록
 
-- [#기록](https://github.com/somnwal/TIL/tree/main/#기록)
+- [#기록](https://github.com/somnwal/TIL/tree/main/%23기록)
 
 &nbsp;
 &nbsp;
