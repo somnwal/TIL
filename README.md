@@ -11,7 +11,7 @@
 
 ### 작성 기록
 
-- [기록](https://github.com/somnwal/TIL/tree/main/기록)
+- [#기록](https://github.com/somnwal/TIL/tree/main/#기록)
 
 &nbsp;
 &nbsp;
@@ -25,4 +25,4 @@
 
 - InfraStructure
   - [오라클 클라우드](https://github.com/somnwal/TIL/tree/main/오라클_클라우드)
-  - [우분투](https://github.com/somnwal/TIL/tree/main/오라클_클라우드)
+  - [우분투](https://github.com/somnwal/TIL/tree/main/우분투)
