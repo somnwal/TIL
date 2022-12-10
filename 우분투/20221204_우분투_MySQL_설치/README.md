@@ -30,8 +30,8 @@ sudo /usr/bin/mysql -u root -p
 
 ### 외부접속을 위한 사용자 만들기
 ```bash
-mysql> CREATE USER 'user'@'%' IDENTIFIED BY 'password';
-mysql> GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost';
+mysql> CREATE USER 'somnwal'@'%' IDENTIFIED BY 'password';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'somnwal'@'%';
 mysql> FLUSH PRIVILEGES;
 ```
 
@@ -49,7 +49,7 @@ mysql> CREATE USER 'root'@'%' IDENTIFIED BY 'root';
 
 ##### 원하는 사용자에게 권한을 부여하고, root@'%' 삭제
 ```bash
-mysql> GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'somnwal'@'%' WITH GRANT OPTION;
 mysql> FLUSH PRIVILEGES;
 mysql> DROP USER 'root'@'%';
 ```
@@ -61,7 +61,7 @@ mysql> DROP USER 'root'@'%';
 
 ##### 설정파일 열기
 ```bash
-vi /etc/mysql/mysql.conf.d/mysqld.conf
+sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 ```
 
 ##### 포트 & bind-address 수정하기
