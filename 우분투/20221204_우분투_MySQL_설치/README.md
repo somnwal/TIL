@@ -49,7 +49,7 @@ mysql> CREATE USER 'root'@'%' IDENTIFIED BY 'root';
 
 ##### 원하는 사용자에게 권한을 부여하고, root@'%' 삭제
 ```bash
-mysql> GRANT ALL PRIVILEGES ON *.* TO 'somnwal'@'%';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'somnwal'@'%' WITH GRANT OPTION;
 mysql> FLUSH PRIVILEGES;
 mysql> DROP USER 'root'@'%';
 ```
@@ -61,7 +61,7 @@ mysql> DROP USER 'root'@'%';
 
 ##### 설정파일 열기
 ```bash
-vi /etc/mysql/mysql.conf.d/mysqld.cnf
+sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 ```
 
 ##### 포트 & bind-address 수정하기
