@@ -1,35 +1,38 @@
-# 20221204_스프링부트_서버에_배포하기
+# 20221210_스프링부트_애플리케이션_구조
 
 &nbsp;
 &nbsp;
 
-
-### 우분투에서 배포해보기
-[20221204_우분투_Maven_배포](https://github.com/somnwal/TIL/tree/main/우분투/20221204_우분투_Maven_배포)
-
-&nbsp;
-&nbsp;
-
-
-### 이클립스에서 Maven Build
-
-1. 프로젝트 혹은 pom.xml 우클릭
-2. Run As > Maven Build
-3. Goals 항목에 package 입력 후 Run
-4. 생성된 .jar 파일 확인
-
-&nbsp;
-&nbsp;
-
-### 스프링부트 프로젝트 실행
-```bash
-java -jar spingboot_project.jar
+### @SpringbootApplication
+```
+스프링부트 어플리케이션 부트스트랩
 ```
 
-&nbsp;
-&nbsp;
-
-### 스프링부트 프로젝트 백그라운드로 실행
-```bash
-nohup java -jar spingboot_project.jar &
+### 컴포넌트 스캔
 ```
+스프링부트 애플리케이션이 시작될 때, 애플리케이션 컨텍스트 클래스 아래의 모든 클래스와 패키지를 스캔
+```
+
+### @Autowired
+```
+스프링 컨텍스트에서 빈을 가져와 매핑
+```
+
+### yaml
+이렇게 생김
+```yaml
+spring:
+    profiles:
+        active: "development"
+```
+
+### RestController
+
+예시
+
+##### Customer 클래스
+```kotlin
+data class Customer(var id:Int = 0, var name: String = "", var tel: Telephone)
+data class Telephone(var countryCode: String="", var phoneNumber: String)
+```
+

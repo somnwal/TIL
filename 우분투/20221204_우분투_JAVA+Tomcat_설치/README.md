@@ -12,9 +12,9 @@ sudo apt-get upgrade
 &nbsp;
 &nbsp;
 
-### Java11 설치 (openjdk로 시작하는 모든 프로그램 설치)
+### Java17 설치 (openjdk로 시작하는 모든 프로그램 설치)
 ```bash
-sudo apt install openjdk-11*
+sudo apt install openjdk-17*
 ```
 
 &nbsp;
